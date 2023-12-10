@@ -25,6 +25,13 @@ const App = () => {
                Green
            </button>
 
+           <button 
+             className='outline-none px-4 py-1 rounded-full shadow-lg text-black'
+             onClick={() => setColor("blue")}
+             style={{backgroundColor: "blue"}}>
+               Blue
+           </button>
+
          </div>
       </div>
     </div>
