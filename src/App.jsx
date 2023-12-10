@@ -4,9 +4,9 @@ const App = () => {
 
   const [color , setColor] = useState("yellow")
 
-  function changeColor(color) {
-     setColor(color)
-  }
+  // function changeColor(color) {
+  //    setColor(color)
+  // }
 
   return (
     <div className='w-full h-screen duration-200' style={{backgroundColor : color}}>
@@ -15,13 +15,13 @@ const App = () => {
           
            <button 
              className='outline-none px-4 py-1 rounded-full shadow-lg text-black'
-             onClick={()=> changeColor("red")}>
+             onClick={()=> setColor("red")}>
               Red
            </button>
 
            <button 
              className='outline-none px-4 py-1 rounded-full shadow-lg text-black'
-             onClick={() => changeColor("green")}>
+             onClick={() => setColor("green")}>
                Green
            </button>
 
