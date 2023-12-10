@@ -19,7 +19,11 @@ const App = () => {
               Red
            </button>
 
-           
+           <button 
+             className='outline-none px-4 py-1 rounded-full shadow-lg text-black'
+             onClick={() => changeColor("green")}>
+               Green
+           </button>
 
          </div>
       </div>
