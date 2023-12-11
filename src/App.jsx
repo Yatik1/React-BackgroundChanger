@@ -46,6 +46,13 @@ const App = () => {
                Black
            </button>
 
+           <button 
+             className='outline-none px-4 py-1 rounded-full shadow-lg text-black'
+             onClick={() => setColor("gray")}
+             style={{backgroundColor: "gray"}}>
+               Gray
+           </button>
+
          </div>
       </div>
     </div>
