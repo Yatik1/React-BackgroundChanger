@@ -2,7 +2,7 @@ import React, { useState } from 'react'
 
 const App = () => {
 
-  const [color , setColor] = useState("yellow")
+  const [color , setColor] = useState("brown")
 
   
 
@@ -30,6 +30,13 @@ const App = () => {
              onClick={() => setColor("blue")}
              style={{backgroundColor: "blue"}}>
                Blue
+           </button>
+
+           <button 
+             className='outline-none px-4 py-1 rounded-full shadow-lg text-black'
+             onClick={() => setColor("orange")}
+             style={{backgroundColor: "orange"}}>
+               Orange
            </button>
 
          </div>
